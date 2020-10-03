@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         btnDecrementar.setOnClickListener {
             contador--
             tvContador.text = "$contador"
+            //Nuevo Comentario
         }
     }
 }
